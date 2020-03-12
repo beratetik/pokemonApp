@@ -8,11 +8,15 @@
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
     "watch": "webpack-dev-server --progress",
-    "precommit": "lint-staged",
-    "lint": "eslint src"
+    "precommit": "lint-staged"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,json,css}": [
+    "./src/**/*.{js,jsx,json,css}": [
       "prettier --write",
       "git add"
     ]
