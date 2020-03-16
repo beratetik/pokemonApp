@@ -15,7 +15,7 @@ const App = () => {
     <Router>
       <ScrollToTop />
       <Switch>
-        {/* <Redirect exact from="/" to="/pokemon" /> */}
+        <Redirect exact from="/" to="/pokemon" />
         <Route path="/pokemon" exact component={Pokemons} />
         <Route path="/pokemon/:name" exact component={Pokemon} />
         <Route path="/404" component={NotFound} />

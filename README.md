@@ -1,48 +1,48 @@
 # Pokemon App
 
-You can follow with this url => [Pokemon App](https://pokemon-app-33592.firebaseapp.com/pokemon)
+You can start with this URL => [Pokemon App](https://pokemon-app-33592.firebaseapp.com/pokemon)
 
 ## Installation
 
-- npm install
+- [asd](npm install)
 - npm start
 
 ## npm commands
 
-> npm run start:dev
+`npm run start:dev`
 
 - Starts development server with webpack configuration for the development side
   - It's able to see the logs from redux states it's running redux-logger
 
-> npm start
+`npm start`
 
 - Starts the project with production configuration
 
-> npm run build:prod
+`npm run build:prod`
 
 - Cleans the dist folder & Creates the project bundle
 
-> npm run clean
+`npm run clean`
 
 - Cleans the dist folder
 
-> npm run lint
+`npm run lint`
 
 - Runs linter for all js|x files. You can see the eslint configuration on .eslintrc file
 
-> lint-staged
+`lint-staged`
 
 - Runs Auto-linting & prettier before pushing the commit(s)
 
-> npm test
+`npm test`
 
 - Watches jest on .test.js files
 
-> npm run test:watch
+`npm run test:watch`
 
 - Runs jest with user selected mode(CLI)
 
-> npm run test:coverage
+`npm run test:coverage`
 
 - Shows the error and file coverage
 
@@ -63,3 +63,5 @@ I had no time to write unit test code. I just started to write testing code toda
 
 Thanks,
 Berat
+
+![Pokemon](https://static.giantbomb.com/uploads/original/0/1481/2897229-9939923796-latest)
