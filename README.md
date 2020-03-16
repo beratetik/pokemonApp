@@ -55,11 +55,15 @@ You can start with this URL => [Pokemon App](https://pokemon-app-33592.firebasea
 
 ### Known Bugs
 
-- Browser back button is not working when the pokemons/:id page
+- Browser back button is not working on the pokemons/:id page
 
 ### Additional Explanation
 
-I had no time to write unit test code. I just started to write testing code today but I don't have enough time to complete. and also I don't have enough knowledge about jest and & enzym packages. I must do more practice about this testing case. Also I don't have enough knowledge about Docker, so I didn't apply docker image. I used firebase to deploy the project.
+I had no time to write unit test code. I just started to write testing code today but didn't have enough time to complete and also don't have enough knowledge about jest & enzym packages. I should do more practice about this testing case. I didn't apply docker image since I didn't have enough opportunity to gain experience.
+
+But I have solid confidence that if I have time and opportunity I can master the skills and areas I've mentioned above.
+
+Used firebase to deploy the project.
 
 Thanks,
 Berat
