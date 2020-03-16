@@ -16,10 +16,4 @@ describe("<PokemonImage />", () => {
   it("should render one time", () => {
     expect(wrapper.find(ReactImageFallback)).toHaveLength(1);
   });
-
-  //   it("should render imgSrc to fallbackImg prop, if the name prop is empty", () => {
-
-  //     wrapper = shallow(<PokemonImage name />);
-  //     expect(wrapper.find(ReactImageFallback));
-  //   });
 });

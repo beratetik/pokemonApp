@@ -23,7 +23,6 @@ const PokemonCard = ({ name }) => {
             onClick={() => {
               dispatch(clearPokemon);
               history.push("/pokemon");
-              // history.go(1);
             }}
           >
             X
