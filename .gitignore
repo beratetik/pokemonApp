@@ -12,3 +12,8 @@ node_modules
 
 # log
 npm-debug.log*
+
+#firebase deployment log
+.firebase
+
+.firebase/hosting.ZGlzdA.cache

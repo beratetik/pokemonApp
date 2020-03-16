@@ -1,0 +1,27 @@
+.link {
+  cursor: url("../../assets/pokeball.png") 15 10, auto;
+  color: unset;
+  text-decoration: unset;
+}
+
+.container {
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+  width: 250px;
+  height: 200px;
+  max-width: 250px;
+  max-height: 200px;
+  grid-column-start: col-start 2;
+  justify-items: center;
+  position: relative;
+  background: white;
+}
+
+.container:hover {
+  background: lightgray;
+}
+
+.button {
+  background: lightgray;
+}

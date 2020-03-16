@@ -1,0 +1,108 @@
+.pokemonLogo {
+  width: 30vw;
+  display: block;
+  margin: 1rem auto 3rem;
+  background: url("../../assets/pokemonLogo.png") no-repeat;
+  padding: 5vw;
+  background-size: contain;
+  background-position: center;
+}
+
+.immflyLogo {
+  display: block;
+  margin: 20px auto;
+  background: url("../../assets/immflyLogo.png") no-repeat;
+  padding: 2vw;
+  background-size: contain;
+  background-position: center;
+  cursor: pointer;
+}
+
+.pokemonQuote {
+  width: 30vw;
+  display: block;
+  margin: 1rem auto 3rem;
+  background: url("https://spark.adobe.com/page/ed1c794c-39f3-4253-887a-b5890997b6ee/images/3defdf8b-b058-4be6-b055-7af75d6c38a7.png?asset_id=c8a3ad80-007f-4820-8d7c-334d82b5661b&img_etag=b8f09e9cdcf22c228f799514f707881c&size=1024")
+    no-repeat;
+  padding: 5vw;
+  background-size: contain;
+  background-position: center;
+}
+
+@media screen and (min-width: 667px) and (max-width: 1024px) {
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .pokemonLogo {
+    /* width: 50vw; */
+    padding: 10vw;
+  }
+  .immflyLogo {
+    padding: 5vw;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* Portrait */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+  .pokemonLogo {
+    width: 50vw;
+  }
+}
+
+/* Landscape */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+  .pokemonLogo {
+    width: 50vw;
+  }
+}
+
+/* iPads */
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+}

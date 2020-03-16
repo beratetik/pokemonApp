@@ -1,0 +1,9 @@
+.container {
+  text-align: center;
+  width: 100vw;
+  vertical-align: middle;
+}
+
+.text {
+  display: block;
+}

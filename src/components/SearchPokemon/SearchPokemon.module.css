@@ -1,0 +1,56 @@
+.input {
+  display: block;
+  margin: 30px auto;
+  width: 50vw;
+  height: 5vh;
+  text-align: center;
+  border: none;
+  border-radius: 2rem;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .input {
+    width: 75vw;
+  }
+}
+
+/* Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .input {
+    width: 75vw;
+    height: 10vh;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .gridContainer {
+    grid-column-gap: 10px;
+  }
+  .input {
+    width: 75vw;
+    height: 10vh;
+  }
+}

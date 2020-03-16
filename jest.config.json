@@ -1,0 +1,7 @@
+{
+  "testRegex": "((\\.|/*.)(test))\\.js?$",
+  "moduleFileExtensions": ["js", "json", "jsx", "ts", "tsx", "node"],
+  "moduleNameMapper": {
+    "\\.(css|sass)$": "identity-obj-proxy"
+  }
+}

@@ -1,9 +1,16 @@
 {
-    "presets": [
-        "@babel/preset-env",
-        "@babel/preset-react"
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": ["> 1%", "last 2 versions"]
+        },
+        "corejs": "3.6.4",
+        "useBuiltIns": "usage"
+      }
     ],
-    "plugins": [
-        "@babel/plugin-proposal-object-rest-spread"
-    ]
+    "@babel/preset-react"
+  ],
+  "plugins": ["@babel/plugin-proposal-object-rest-spread"]
 }
