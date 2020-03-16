@@ -4,7 +4,7 @@ You can start with this URL => [Pokemon App](https://pokemon-app-33592.firebasea
 
 ## Installation
 
-- [asd](npm install)
+- (npm install)
 - npm start
 
 ## npm commands
