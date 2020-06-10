@@ -6,6 +6,7 @@
   "scripts": {
     "start:dev": "webpack-dev-server --open ",
     "start": "webpack-dev-server --config webpack.config.prod.js",
+    "build": "webpack --config webpack.config.prod.js",
     "build:prod": "npm run clean && webpack --config webpack.config.prod.js",
     "clean": "rimraf ./dist/*",
     "lint": "eslint src",
