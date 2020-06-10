@@ -1,5 +1,7 @@
 # Pokemon App
 
+[![Runme](https://runme.io/static/button.svg)](https://runme.io/run?app_id=496682ca-9888-48a2-923b-aebc974d02e5)
+
 You can start with this URL => [Pokemon App](https://pokemon-app-33592.firebaseapp.com/pokemon)
 
 ## Installation
